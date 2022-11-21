@@ -39,6 +39,9 @@ section::before {
     font-size: 48px;
 }
 
+.home img {
+    width: 100%;
+}
 .home .arrow img{
     width: 60px;
 }
@@ -142,6 +145,18 @@ section::before {
     font-weight: 500;
 }
 
+@media only screen and (max-width:768px) {
+    .home img {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    section::before {
+        left: -5px; 
+        font-size: 54px;
+    }
+}
 @keyframes upDown {
     0% {
         transform: translateY(0);
